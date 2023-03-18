@@ -84,7 +84,7 @@ a:hover{
 }
 
 .tableForm{
-    margin-left: 30%;
+    margin-left: 25%;
     margin-right: 30%;
     text-align: left;
     width: 60%;
@@ -125,6 +125,22 @@ a:hover{
 .btn:hover {
   background: #4FA095;
   text-decoration: none;
+}
+
+.imageProject{
+    width: 65%;
+}
+.imageProject:hover{
+    background: #EEE9DA;
+    -webkit-box-shadow: 3px 3px 3px #3C6255;
+    -moz-box-shadow: 3px 3px 3px #3C6255;
+    box-shadow: 3px 3px 3px #3C6255;
+}
+.tableProject{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
 }
 /*-------------------ID SELECTION----------------------*/
 #android{
