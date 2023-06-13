@@ -1,104 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Chu Kim Muoi</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/929/929574.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chu Kim Muoi - Profile</title>
+  <link rel="stylesheet" href="Styles/styles.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/929/929574.png">
+  <!-- use bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
-<body>
-    <div class="tagHead">
-        <table>
-            <tr>
-                <td>
-                    <table id="leftTable">
-                        <tr>
-                            <td><img id="image_myself" src="me.png" alt="image"></td>
-                            <td><h2 id="headName">Chử Kim Mười</h2></td>
-                        </tr>
-                    </table>
-                </td>
-
-                <td>
-                    <table id="rightTable" cellspacing="10">
-                        <tr>
-                            <td><a href="index.html"><h3 style="color: #EEE9DA;">About</h3></a></td>
-                            <td><a href="project.html"><h3>Project</h3></a></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </div>
-
-    <div>
-        <div>
-            <h1 class="headItem">I'm Muoi</h1>
+<body class="align-items-center">
+  <!-- header -->
+  <section>
+    <header data-bs-theme="dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">Chu Kim Muoi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="project_new.html">Project</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div>
-            <h3 style="margin: 0; font-size:2.1875rem">Android Technical Leader</h3>
+      </nav>
+    </header>
+  </section>
+
+  <!-- introduction -->
+  <section class="py-0 gradient-background">
+    <main class="container my-5 align-items-center">
+      <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary gradient-background">
+        <div class="row">
+          <div class="col lg-8 sm-12 px-0">
+            <p class="lead my-3"></p>
+            <h1 class="display-5 fst-italic"><b>Objective</b></h1>
+            <p class="lead my-3">- 8+ year of experience in mobile application development as an Android Developer (Java, Kotlin).</p>
+            <p class="lead my-3">- Knowledgable and profi cient: Android Jetpack, Jetpack compose, Git.</p>
+            <p class="lead my-3">- Understanding of Clean Architecture, SOLID, Reactive Programming, Design patterns.</p>
+            <p class="lead my-3">- Experienced with working in Agile teams, strictly follow Scrum process.</p>
+          </div>
+          <div class="col lg-4 sm-12 px-0" style="margin-left:10%;">
+            <div class="card" style="width: 23rem;">
+              <img src="images/me.png" class="card-img-top py-3" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chu Kim Muoi</h5>
+                <p class="card-text my-0"><b>Gender:</b> Male</p>
+                <p class="card-text my-0"><b>Date of birth:</b> 12/07/1992</p>
+                <p class="card-text my-0"><b>Phone:</b> 0373 672 505</p>
+                <p class="card-text my-0"><b>Email:</b> chukimmuoi@gmail.com</p>
+                <p class="card-text my-0"><b>Address:</b> Hanoi, Vietnamese</p>
+                  <form action="mailto:chukimmuoi@gmail.com" method="post">
+                    <input class="btn my-3 fs-6 fw-bold" type="submit" value="MESSAGE ME">
+                  </form>
+              </div>
+            </div>
+          </div>
         </div>
-
-
+      </div>
+    </main>
+  </section>
+  <!-- Education -->
+  <section id="Education" class="text-center">
+    <div class="mx-5 my-2">
+      <img class="icon-square" src="https://cdn-icons-png.flaticon.com/512/4645/4645229.png" alt="education">
+      <h3>Education</h3>
+      <table class="tableForm">
+          <tbody><tr>
+              <td><b>08/2010 - 03/2015</b></td>
+              <td>
+                  <p><b>National University Of Civil Engineering</b></p>
+                  <p>Information Technology</p>
+                  <p>The Degree Of Engineer - Degree Classification Good</p>
+              </td>
+          </tr>
+      </tbody></table>
     </div>
-    <img id="android" src="android-vs-ios3.png" alt="android">
+  </section>
+  <hr>
 
-    <hr>
-
-    <div class="introduce">
-        <table style="text-align: left;" width="100%">
-            <tr>
-                <td>
-                    <img class="image" src="me.png" alt="Mai profile picture">
-                </td>
-                <td>
-                    <div class="skill-text">
-                        <p><i><b>Gender:</b></i> Male</p>
-                        <p></p><i><b>Date of birth:</b></i> 12/07/1992</p>
-                        <p></p><i><b>Phone:</b></i> 0373 672 505</p>
-                        <p></p><i><b>Email:</b></i> chukimmuoi@gmail.com</p>
-                        <p></p><i><b>Address:</b></i> Hanoi, Vietnamese</p>
-                        <h3><em><strong>OBJECTIVE</strong></em></h3>
-                        <p>- 8+ year of experience in mobile application development as an Android Developer (Java, Kotlin).</p>
-                        <p>- Knowledgable and profi cient: Android Jetpack, Jetpack compose, Git.</p>
-                        <p>- Understanding of Clean Architecture, SOLID, Reactive Programming, Design patterns.</p>
-                        <p>- Experienced with working in Agile teams, strictly follow Scrum process.</p>
-                    </div>
-                </td>
-            </tr>
-        </table>
-
-    </div>
-
-
-    <hr>
-
-    <div>
-        <img class="symbol" src="https://cdn-icons-png.flaticon.com/512/4645/4645229.png" alt="education">
-        <h3>Education</h3>
-        <table class="tableForm">
-            <tr>
-                <td class="time"><b>08/2010 - 03/2015</b></td>
-                <td>
-                    <p><b>National University Of Civil Engineering</b></p>
-                    <p>Information Technology</p>
-                    <p>The Degree Of Engineer - Degree Classifi cation Good</p>
-                </td>
-            </tr>
-        </table>
-    </div>
-
-    <hr>
-
-    <div>
-        <img class="symbol" src="https://cdn-icons-png.flaticon.com/512/9789/9789298.png" alt="experience">
+  <!-- Experience -->
+  <section id="Experience" class="text-center">
+    <div class="mx-5 my-2">
+        <img class="icon-square" src="https://cdn-icons-png.flaticon.com/512/9789/9789298.png" alt="experience">
         <h3>Work Experience</h3>
         <table class="tableForm">
-            <tr>
+            <tbody><tr>
                 <td class="time"><b>11/2020 - Present</b></td>
                 <td>
                     <p><b>FPT SOFTWARE</b></p>
@@ -134,17 +128,19 @@
                 </td>
             </tr>
 
-        </table>
+        </tbody></table>
     </div>
+  </section>
+  <hr>
 
-    <hr>
-
-    <div>
-        <img class="symbol" src="https://cdn-icons-png.flaticon.com/512/2628/2628663.png" alt="skill">
+  <!-- Skills -->
+  <section id="Skills" class="text-center">
+    <div class="mx-5 my-2">
+        <img class="icon-square" src="https://cdn-icons-png.flaticon.com/512/2628/2628663.png" alt="skill">
         <h3>Skills</h3>
         <div>
             <table class="tableForm">
-                <tr>
+                <tbody><tr>
                     <td><b>Programming Languages</b></td>
                     <td>
                         <p>Java, Kotlin, Python</p>
@@ -182,28 +178,58 @@
                 <tr>
                     <td><b>Personal Qualities</b></td>
                     <td>
-                        <p>Have good research and problem solving ability</p>
+                        <p>Have good research and problems solving ability</p>
                         <p>Can work independently or in a team.</p>
                     </td>
                 </tr>
-            </table>
+            </tbody></table>
         </div>
     </div>
+  </section>
 
-        <hr>
-    <article style="min-height: 100%;">
-        <div class="tagEnd">
-            <form action="mailto:chukimmuoi@gmail.com" method="post">
-                <input class="btn" type="submit" value="✉️ MESSAGE ME">
-            </form>
-            <footer style="padding: 40px; justify-content: center;">
-                <p  id="end" style="color: #73A9AD;">© 2023 <u>Chu Kim Muoi</u>.</p>
-            </footer>
+  <!-- Footer -->
+  <section class="gradient-background">
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top">
+        <div class="col mb-3">
+          <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <p class="text-body-secondary">© 2023 <u>Chu Kim Muoi</u></p>
         </div>
 
-    </article>
+        <div class="col mb-3">
 
+        </div>
 
+        <div class="col mb-3">
 
+        </div>
+
+        <div class="col mb-3">
+          <h5>Home</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#Education" class="nav-link p-0 text-body-secondary">Education</a></li>
+            <li class="nav-item mb-2"><a href="#Experience" class="nav-link p-0 text-body-secondary">Work Experience</a></li>
+            <li class="nav-item mb-2"><a href="#Skills" class="nav-link p-0 text-body-secondary">Skills</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Project</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="project_new.html#NER" class="nav-link p-0 text-body-secondary">NER</a></li>
+            <li class="nav-item mb-2"><a href="project_new.html#VCall" class="nav-link p-0 text-body-secondary">VCall</a></li>
+            <li class="nav-item mb-2"><a href="project_new.html#POS 365" class="nav-link p-0 text-body-secondary">POS 365</a></li>
+            <li class="nav-item mb-2"><a href="project_new.html#BeatX, PlayXPro & PlayXOne" class="nav-link p-0 text-body-secondary">BeatX, PlayXPro & PlayXOne</a></li>
+            <li class="nav-item mb-2"><a href="project_new.html#SmartList & SmartListX" class="nav-link p-0 text-body-secondary">SmartList & SmartListX</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <!-- use javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

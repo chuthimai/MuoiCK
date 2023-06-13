@@ -1,0 +1,65 @@
+.gradient-background {
+  background: linear-gradient(300deg, #C3F8FF, #FFCBCB, #D9D7F1, #ABD9FF, #B6E388);
+  background-size: 180% 180%;
+  animation: gradient-animation 8s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 25%;
+  }
+  25% {
+    background-position: 25% 50%;
+  }
+  50% {
+    background-position: 50% 75%;
+  }
+  75% {
+    background-position: 75% 100%;
+  }
+  100% {
+    background-position: 0% 25%;
+  }
+}
+
+.icon-square {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 400px;
+}
+
+.tableForm{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+    width: 60%;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: linear-gradient(100deg, #FFCBCB, #D9D7F1, #ABD9FF);
+  border: solid black 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: linear-gradient(100deg, #FFCBCB, #ABD9FF, #B6E388);
+  text-decoration: none;
+}
+
+.cardColor{
+  background: linear-gradient(95deg, #FFCBCB, #ABD9FF, #B6E388);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
